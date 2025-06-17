@@ -754,3 +754,264 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_Ciclabili_Manuale_4rule0_eval_expression(context) {
+    // Tipologia = 'Protetta - Bi'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Protetta - Bi');
+    } else {
+        return (feature['Tipologia']  == 'Protetta - Bi');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule1_eval_expression(context) {
+    // Tipologia = 'Protetta - Bi'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Protetta - Bi');
+    } else {
+        return (feature['Tipologia']  == 'Protetta - Bi');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule2_eval_expression(context) {
+    // Tipologia = 'Protetta - Mono'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Protetta - Mono');
+    } else {
+        return (feature['Tipologia']  == 'Protetta - Mono');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule3_eval_expression(context) {
+    // Tipologia = 'Protetta - Mono'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Protetta - Mono');
+    } else {
+        return (feature['Tipologia']  == 'Protetta - Mono');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule4_eval_expression(context) {
+    // Tipologia = 'Ciclopedonale - Bi'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Ciclopedonale - Bi');
+    } else {
+        return (feature['Tipologia']  == 'Ciclopedonale - Bi');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule5_eval_expression(context) {
+    // Tipologia = 'Ciclopedonale - Bi'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Ciclopedonale - Bi');
+    } else {
+        return (feature['Tipologia']  == 'Ciclopedonale - Bi');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule6_eval_expression(context) {
+    // Tipologia = 'Ciclopedonale - Mono'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Ciclopedonale - Mono');
+    } else {
+        return (feature['Tipologia']  == 'Ciclopedonale - Mono');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule7_eval_expression(context) {
+    // Tipologia = 'Ciclopedonale - Mono'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Ciclopedonale - Mono');
+    } else {
+        return (feature['Tipologia']  == 'Ciclopedonale - Mono');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule8_eval_expression(context) {
+    // Tipologia = 'Corsia - Mono'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Corsia - Mono');
+    } else {
+        return (feature['Tipologia']  == 'Corsia - Mono');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule9_eval_expression(context) {
+    // Tipologia = 'Corsia - Mono'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Corsia - Mono');
+    } else {
+        return (feature['Tipologia']  == 'Corsia - Mono');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule10_eval_expression(context) {
+    // Tipologia = 'Corsia - bi'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Corsia - bi');
+    } else {
+        return (feature['Tipologia']  == 'Corsia - bi');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule11_eval_expression(context) {
+    // Tipologia = 'Corsia - Bi'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Corsia - Bi');
+    } else {
+        return (feature['Tipologia']  == 'Corsia - Bi');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule12_eval_expression(context) {
+    // Tipologia = 'Fantasma'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Tipologia']  == 'Fantasma');
+    } else {
+        return (feature['Tipologia']  == 'Fantasma');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule13_eval_expression(context) {
+    // Tipologia = 'Sentiero' AND Stato = 'Esistente'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['Tipologia']  == 'Sentiero') && (feature.properties['Stato']  == 'Esistente'));
+    } else {
+        return ((feature['Tipologia']  == 'Sentiero') && (feature['Stato']  == 'Esistente'));
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule14_eval_expression(context) {
+    // Stato = 'Pianificata SR - PUMS'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Stato']  == 'Pianificata SR - PUMS');
+    } else {
+        return (feature['Stato']  == 'Pianificata SR - PUMS');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule15_eval_expression(context) {
+    // Stato = 'Pianificata SP - PUMS'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Stato']  == 'Pianificata SP - PUMS');
+    } else {
+        return (feature['Stato']  == 'Pianificata SP - PUMS');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule16_eval_expression(context) {
+    // Stato = 'Pianificata ST - PUMS'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Stato']  == 'Pianificata ST - PUMS');
+    } else {
+        return (feature['Stato']  == 'Pianificata ST - PUMS');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule17_eval_expression(context) {
+    // Stato = 'Pianificata' AND Comune <> 'Roma'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['Stato']  == 'Pianificata') && (feature.properties['Comune']  != 'Roma'));
+    } else {
+        return ((feature['Stato']  == 'Pianificata') && (feature['Comune']  != 'Roma'));
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule19_eval_expression(context) {
+    // Stato = 'Cantiere'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Stato']  == 'Cantiere');
+    } else {
+        return (feature['Stato']  == 'Cantiere');
+    }
+}
+
+
+function exp_Ciclabili_Manuale_4rule20_eval_expression(context) {
+    // Stato = 'Progettazione'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['Stato']  == 'Progettazione');
+    } else {
+        return (feature['Stato']  == 'Progettazione');
+    }
+}
